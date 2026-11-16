@@ -1,0 +1,17 @@
+main() {
+    int idade = 20;
+    float preco = 19.90;
+    boolean ativo = true;
+
+    if (idade >= 18 && ativo) {
+        print(idade);
+    }
+
+    if (preco < 50.0 || idade == 0) {
+        print(preco);
+    }
+
+    if (!ativo) {
+        print(idade);
+    }
+}

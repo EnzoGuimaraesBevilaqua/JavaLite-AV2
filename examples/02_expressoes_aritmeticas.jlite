@@ -1,0 +1,23 @@
+main() {
+    int a = 10;
+    int b = 3;
+
+    int soma = a + b;
+    int subtracao = a - b;
+    int multiplicacao = a * b;
+    int divisao = a / b;
+    int resto = a % b;
+    int potencia = a ** b;
+
+    a = a + 5;
+    b = b * 2;
+
+    print(soma);
+    print(subtracao);
+    print(multiplicacao);
+    print(divisao);
+    print(resto);
+    print(potencia);
+    print(a);
+    print(b);
+}

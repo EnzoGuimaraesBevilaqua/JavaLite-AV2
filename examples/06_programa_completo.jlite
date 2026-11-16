@@ -1,0 +1,26 @@
+main() {
+    int idade;
+    float altura = 1.75;
+    boolean estudante = true;
+    string nome = "Carlos";
+
+    read(idade);
+
+    if (idade >= 18 && estudante) {
+        print(nome);
+        print(idade + 1);
+    } else {
+        print("Menor de idade");
+    }
+
+    int contador = 0;
+
+    while (contador < 3) {
+        print(contador);
+        contador = contador + 1;
+    }
+
+    if (altura >= 1.70 || idade == 0) {
+        print(altura * 2.0);
+    }
+}

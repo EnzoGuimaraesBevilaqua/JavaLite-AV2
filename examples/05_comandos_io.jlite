@@ -1,0 +1,19 @@
+main() {
+    int idade;
+    float altura;
+    boolean estudante;
+    string nome;
+
+    read(idade);
+    read(altura);
+    read(estudante);
+    read(nome);
+
+    print(idade);
+    print(altura);
+    print(estudante);
+    print(nome);
+
+    print(idade + 10);
+    print(altura * 2.0);
+}

@@ -1,0 +1,11 @@
+main() {
+    int idade = 20;
+    float preco = 19.90;
+    boolean ativo = true;
+    string nome = "Enzo";
+
+    print(idade);
+    print(preco);
+    print(ativo);
+    print(nome);
+}

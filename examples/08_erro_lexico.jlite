@@ -1,0 +1,4 @@
+main() {
+    int valor = 10 @ 2;
+    print(valor);
+}
