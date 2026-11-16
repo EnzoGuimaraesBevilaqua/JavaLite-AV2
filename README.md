@@ -73,7 +73,7 @@ São reconhecidos os seguintes recursos:
 | Operador | Operação |
 |---|---|
 | `&&` | E lógico |
-| `||` | OU lógico |
+| <code>&#124;&#124;</code> | OU lógico |
 | `!` | Negação lógica |
 
 ### 2.4 Limitações da linguagem
